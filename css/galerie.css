@@ -1,0 +1,71 @@
+@font-face
+{
+	font-family:gunplay;
+	src: url("../fonts/gunplayrg.ttf");
+}
+
+.categorie > div > div
+{
+	width:100%;
+	display:flex;
+	flex-direction:row;
+	justify-content:space-around;
+}
+
+.categorie > div > div > div
+{
+	width:175px;
+	height:115px;
+	/*height:100px;*/
+	margin:20px 0;
+	position:relative;
+}
+
+.categorie > div > div > div > img
+{
+	width:100%;
+	object-fit: cover;
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:0;
+	border-radius:5px;
+	box-shadow:0 2px 8px black;
+	transition:
+		width 0.25s,
+		top 0.25s,
+		left 0.25s,
+		border-radius 0.25s,
+		z-index 0s 0.25s;
+}
+
+.categorie > div > div > div > img:hover
+{
+	
+	width:200%;
+	top:-50%;
+	left:-50%;
+	z-index:1;
+	border-radius:20px;
+	transition:
+		width 0.5s 0.5s,
+		top 0.5s 0.5s,
+		left 0.5s 0.5s,
+		border-radius 0.5s 0.5s,
+		z-index 0s 0.5s;
+}
+
+.categorie > h3
+{
+	font-family: gunplay,Arial,sans-serif;
+	font-weight:normal;
+	letter-spacing:1px;
+	margin: 20px 0;
+	font-size: 24px;
+	color: #fff;
+	border: 1px solid #444;
+	border-radius: 10px;
+	background-color: #e00000;
+	padding: 5px;
+	padding-left: 30px;
+}

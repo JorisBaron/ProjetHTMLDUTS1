@@ -1,0 +1,209 @@
+@font-face
+{
+	font-family:arabolic;
+	src: url('../fonts/arabolic.ttf');
+}
+
+main
+{
+	padding:30px;
+}
+
+hr
+{
+	margin:30px 0;
+	height:15px;
+	border:0;
+	background-image:url('../images/pneu.png');
+	background-repeat: repeat-x;
+	background-size:contain;
+	transform: rotate(2deg);
+}
+
+.fond
+{
+	background-image: url('../images/parchemin.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size:cover;
+	border-radius: 30px;
+	position:relative;
+	box-shadow: 0 5px 15px rgba(0,0,0,0.8);
+	padding:20px;
+}
+
+h2
+{
+	font-family: arabolic,Arial, Helvetica, sans-serif;
+	font-size: 35px;
+	text-align:center;
+}
+
+#direct
+{
+	width: 100%;
+	box-sizing:border-box;
+}
+
+#direct > h2
+{
+	height:50px;
+	color: #C11A1A;
+	margin:0;
+	margin-bottom:10px;
+}
+
+#direct > h2 > img
+{
+	width: 45px;
+	height: 40px;
+}
+
+#direct > .flex
+{
+	display:flex;
+	justify-content:space-around;
+}
+
+#direct #texteDirect
+{
+	border: 0;
+	background-color: rgba(255, 255, 255, 0.5);
+	border-radius: 10px;
+	width: 35%;
+	height: 500px;
+	padding:20px;
+	box-sizing:border-box;
+}
+
+#direct #maps
+{
+	border-radius: 10px;
+	width: 60%;
+	height: 500px;	
+}
+
+#jdb
+{
+	width:100%;
+}
+
+#jdb > h2
+{
+	font-family: arabolic,Arial, Helvetica, sans-serif; 
+}
+
+#jdb > p
+{
+	font-size:20px;
+	text-align:center;
+}
+
+#jdb > ul
+{
+	list-style: none;
+}
+
+#jdb > ul > li
+{
+	margin-bottom:20px;
+}
+
+#jdb > ul > li > h3
+{
+	margin:0;
+}
+
+#jdb > ul > li > ul
+{
+	list-style: none;
+}
+
+#jdb > ul > li > ul > li::before
+{
+	content:'➙ ';
+}
+
+
+/*
+.desc
+{
+	background-image: url('parchemin.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size:cover;
+	position: absolute;
+	width: 30%;
+	height: 40%;
+	top: 575px;
+	border-radius: 30px;
+	
+}
+
+.journal
+{
+	font-family: "Century Gothic",Arial,sans-serif;
+	font-size: 25px;
+	text-align: center;
+}
+
+.liste
+{
+	background-image: url('parchemin.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size:cover;
+	border-radius: 30px;
+	width: 45%;
+	height: 40%;
+	padding:20px;
+	box-sizing:border-box;
+}
+
+
+
+.actus ul li::before
+{
+	content: "-> ";
+}
+
+.actus ul
+{
+	font-family: "Century Gothic";
+	padding-left: 50px;
+	text-decoration: underline;
+	font-weight: bold;
+	font-size: 26px;
+	color: #C11A1A;
+}	
+
+.actus ul li
+{
+	padding-left: 150px;
+}	
+
+.actus
+{
+	border: 0;
+	background-color: rgba(255, 255, 255, 0.5);
+	border-radius: 15px;
+	width: 100%;
+	height: 100%;
+	overflow-y: scroll;
+}
+	
+
+
+
+
+
+h5
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 40px;
+	text-align: center;
+	color: #C11A1A;
+	margin-bottom: 0;
+	font-family:arabolic;
+}	
+*/

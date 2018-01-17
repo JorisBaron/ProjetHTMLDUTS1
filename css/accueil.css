@@ -1,0 +1,117 @@
+
+/*#logo
+{
+	height:70px;
+	margin:15px 30px;
+}*/
+
+/*.flexContainer
+{
+	display:flex;
+}
+
+#bodyFlex
+{
+	margin-top: 100px;
+}*/
+
+#intro > img
+{
+	width:100%;
+}
+
+hr
+{
+	margin:30px 0;
+	height:15px;
+	border:0;
+	background-image:url('../images/pneu.png');
+	background-repeat: repeat-x;
+	background-size:contain;
+}
+div.flex
+{
+	display:flex;
+	flex-direction:row;
+	margin-top:30px 0 -30px;
+	justify-content: center;
+}
+div.flex > a,
+div.flex > div#imgSponso
+{
+	position:relative;
+	width:225px;
+	max-width:225px;
+	min-height:125px;
+	padding:25px;
+	padding-bottom:60px;
+	margin: /*0*/ 25px;
+	box-shadow:0 2px 10px #404040;
+	background:linear-gradient(rgba(255,255,255,0.8), rgba(220,220,220,0.8));
+	color:black;
+	text-decoration:none;
+}
+
+
+div.flex > a > img
+{
+	position:absolute;
+	bottom:25px;
+	right:25px;
+	height:25px;
+	visibility:hidden;
+	opacity:0;
+	transition:visibility 0s 0.15s,opacity 0.15s;
+}
+
+div.flex > a:hover
+{
+	cursor:pointer;
+}
+
+div.flex > a:hover > img
+{
+	opacity:1;
+	visibility:visible;
+	transition: visibility 0s, opacity 0.15s;
+}
+
+div.flex > a > h3, 
+div.flex > div#imgSponso > h3
+{
+	margin:0;
+	font-family:SummerFestival,Arial,sans-serif;
+	letter-spacing:1px;
+	font-weight:normal;
+}
+div.flex > a > h3
+{
+	margin-bottom:20px;
+}
+
+div.flex > a > p 
+{
+	margin:0;
+}
+
+div.flex > div#imgSponso
+{
+	width:550px;
+	max-width:550px;
+	min-height:150px;
+	padding-bottom:25px;
+}
+
+div.flex > div#imgSponso > div
+{
+	display:flex;
+	align-items: center;
+	height: calc(100% - 20px);
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+div.flex > div#imgSponso > div > img
+{
+	max-height:75px;
+	flex-shrink:1;
+}
